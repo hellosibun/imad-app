@@ -18,7 +18,8 @@ var articles = {
                 
                 `<p>This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.</p>
                      <p>This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.</p>
-                     <p>This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.</p>`
+                     <p>This is my first article.This is my first article.This is my first article.This is my first article.This is my first article.
+                     </p>`
 },
 
 'article-two' : {title: "Article-two",
