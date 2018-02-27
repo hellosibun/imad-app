@@ -9,7 +9,7 @@ var marginLeft = 0;
 function moveRight () {
     
     marginLeft=marginLeft+10;
-    image.style.marginLeft + "px";
+    img.style.marginLeft + "px";
     
 }
 img.onclick = function () {
