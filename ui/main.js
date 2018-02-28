@@ -3,7 +3,6 @@
 var button=document.getElementById('counter');
 
 button.onclick  = function () {
-    
     // create a request object
     
     var request = new XMLHttpRequest();
@@ -31,7 +30,7 @@ button.onclick  = function () {
                     }
                 }
         
-            //dont take any action
+            //Not done yet
             
     };
     
