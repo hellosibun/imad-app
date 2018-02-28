@@ -1,18 +1,17 @@
-console.log('Loaded!');
-var element = document.getElementById("main-text");
-element.innerHTML="New Value";
+//Counter Code
 
-// Move the image
-
-var img = document.getElementById("madi");
-var marginLeft = 0;
-function moveRight () {
+var button=document.getElementById("counter");
+var counter = 0;
+button.onclick  = function () {
     
-    marginLeft=marginLeft + 5;
-    img.style.marginLeft = marginLeft + "px";
+    //make a request to counter end point
     
-}
-img.onclick = function () {
-
-    var interval = setInterval(moveRight, 50);
+    //Capture the response and store it in the variable
+    
+    //render the variable in the correct span
+    
+    counter = counter +1;
+    var span = document.getElementById("count");
+    span.innerHTML = counter.toString();
+    
 };
