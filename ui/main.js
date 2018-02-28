@@ -31,7 +31,7 @@ button.onclick  = function () {
     
     // make the request
     
-    request.open('GET','http://sibunsoumya.hasura-app.io/counter', true);
+    request.open('GET','http://http://sibunsoumya.imad.hasura-app.io/counter', true);
     request.send(null);
 
     
