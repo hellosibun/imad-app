@@ -1,11 +1,11 @@
 //Counter Code
 
-var button=document.getElementById("counter");
+var button=document.getElementById('counter');
 button.onclick  = function () {
     
     // create a request object
     
-    var request = new XMLHttpRequest ();
+    var request = new XMLHttpRequest();
     
     //Capture the response and store it in the variable
     
@@ -17,7 +17,7 @@ button.onclick  = function () {
             
             if (request.status == 200) {
                 var counter = request.responseText;
-                var span = document.getElementById("count");
+                var span = document.getElementById('count');
                 span.innerHTML = counter.toString();            
                 
             }
@@ -31,7 +31,7 @@ button.onclick  = function () {
     
     // make the request
     
-    request.open("Get","http://sibunsoumya.hasura-app.io/counter", true);
+    request.open('Get','http://sibunsoumya.hasura-app.io/counter', true);
     request.send(null);
 
     
